@@ -51,4 +51,5 @@ public class ProdutoModel {
     public void setEstoque(Integer estoque) {
         this.estoque = estoque;
     }
+
 }
