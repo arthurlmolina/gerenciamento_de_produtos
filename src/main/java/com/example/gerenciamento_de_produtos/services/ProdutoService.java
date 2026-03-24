@@ -12,7 +12,7 @@ import java.util.Optional;
 public class ProdutoService {
 
     @Autowired
-    ProdutoRepository produtoRepository;
+    private ProdutoRepository produtoRepository;
 
     public ProdutoModel criarProduto(ProdutoModel produtoModel){
         return produtoRepository.save(produtoModel);
